@@ -32,28 +32,32 @@
 
 ##基础操作篇(基础命令) 
 1. 获取Git仓库
+
     * 在现有项目或目录下导入所有文件到Git中.
 
         >初始化仓库,在项目目录执行
-        >git init
+        >git init.
         
     * 从服务器克隆一个现有的Git仓库.
 
         >git clone [url] [name];[name]为可选参数
 
 2. 检查当前文件状态
+
     * 使用Git时文件的生命周期
 ![](media/14881811937475/14881897567545.jpg)
 
-    >git status
-    >git status -s | git status --short
+        >git status
+        >git status -s | git status --short
     
 3. 跟踪新文件
+
     * 使文件暂存(处于staged状态)|(理解为:添加内容到下一次提交)
     
-    >git add \<file>|(files) 执行后,文件处于staged状态
+        >git add \<file>|(files) 执行后,文件处于staged状态
     
     git add多重作用:
+
         1. 开始跟踪新文件.
         2. 把已跟踪的文件放入暂存区.
         3. 合并时把有冲突的文件标记为已解决
@@ -62,11 +66,11 @@
     
     * 取消文件的staged状态,返回到git add执行前
     
-    >git reset HEAD \<file>
+        >git reset HEAD \<file>
     
     * 取消文件的修改
     
-    >git checkout --\<file>
+        >git checkout --\<file>
     
 4. 忽略文件 .gitignore
 
