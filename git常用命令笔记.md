@@ -38,6 +38,7 @@
         >git init
         
     * 从服务器克隆一个现有的Git仓库.
+    
         >git clone [url] [name]
         [name]为可选参数
 
