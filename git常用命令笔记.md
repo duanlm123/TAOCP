@@ -38,9 +38,8 @@
         >git init
         
     * 从服务器克隆一个现有的Git仓库.
-    
-        >git clone [url] [name]
-        [name]为可选参数
+
+        >git clone [url] [name];[name]为可选参数
 
 2. 检查当前文件状态
     * 使用Git时文件的生命周期
